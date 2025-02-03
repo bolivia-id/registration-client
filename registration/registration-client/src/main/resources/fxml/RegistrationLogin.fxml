@@ -8,11 +8,16 @@
   <bottom>
     <HBox id="footer-section">
       <children>
-        <Label style="-fx-text-fill: white;" text="%mosip.io" />
+        <ImageView fx:id="mosipLogoImageViewInitialScreen" fitWidth="30.0" fitHeight="30.0" preserveRatio="true">
+          <image>
+            <Image url="@../images/logo-final.png" />
+          </image>
+        </ImageView>
+        <Label style="-fx-text-fill: black;" text="%mosip.io" />
         <Label text="  " />
-        <Label style="-fx-text-fill: white;" text="%regClientVersion" />
+        <Label style="-fx-text-fill: black;" text="%regClientVersion" />
         <Label text=" : " />
-        <Label style="-fx-text-fill: white;" fx:id="versionValueLabel" />
+        <Label style="-fx-text-fill: black;" fx:id="versionValueLabel" />
       </children>
     </HBox>
   </bottom>
