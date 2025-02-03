@@ -631,8 +631,10 @@ Working on new Css by taleev
 */
 #loginScreen {
 	-fx-background-image: url('/images/generic-background3.jpg');
-	-fx-background-size: cover, auto;
-	-fx-background-position: left top, center;
+	-fx-background-size: auto,contain;
+	-fx-background-position: left 40px top 100px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-color: transparent;
 }
 
 #header-section {
